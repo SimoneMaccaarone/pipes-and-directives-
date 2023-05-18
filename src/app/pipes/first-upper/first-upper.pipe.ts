@@ -10,8 +10,13 @@ export class FirstUpperPipe implements PipeTransform {
   // valore ingresso e uscita: string e string
   transform(value: string, ...args: any[]): string {
 
+    const firstChar = value[0];
+    const firstCharUpper = firstChar.toUpperCase();
+    const restOfString = value.slice(1);
+    const result = firstCharUpper + restOfString;
+
     console.log(value)
-    return 'scherzo';
+    return result;
   }
 
 }
