@@ -8,7 +8,7 @@ import { DirectiveComponent } from './components/directive/directive.component';
 import { FirstUpperPipe } from './pipes/first-upper/first-upper.pipe';
 import { AccutalAgePipe } from './pipes/accutual-age/accutal-age.pipe';
 import { ChopDescPipe } from './pipes/chop-desc/chop-desc.pipe';
-import { SpecialButtonDirective } from './pipes/directives/special-button/special-button.directive';
+import { SpecialButtonDirective } from './directives/special-button/special-button.directive';
 
 
 
